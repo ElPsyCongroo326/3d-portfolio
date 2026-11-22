@@ -54,11 +54,13 @@ export const About = () => {
           variants={fadeIn(undefined, undefined, 0.1, 1)}
           className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          Detail-oriented Operations and Support Specialist with four years of
+          hands-on experience managing documentation compliance, client
+          relations, and multi-account workflows in fast-paced corporate
+          environments. Experienced in handling complex legal paperwork,
+          validating data under strict audit standards, and building workflow
+          automations using AutoHotkey, JavaScript, HTML5, and CSS3 to maximize
+          operational efficiency.
         </motion.p>
 
         {/* Service Card */}
