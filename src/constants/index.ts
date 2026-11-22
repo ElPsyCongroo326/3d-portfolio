@@ -58,26 +58,26 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio",
+    link: "https://github.com",
   },
 ] as const;
 
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Operations Specialist",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Documentation Compliance",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Workflow Automation",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Front-End Fundamentals",
     icon: creator,
   },
 ] as const;
@@ -141,55 +141,50 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Operations Representative",
+    company_name: "Paragon Outsourcing – Clark, Philippines",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2026 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Process and manage formal legal requests, subpoenas, and notices of deposition under tight operational turnaround times.",
+      "Coordinate closely across multiple legal operations teams to clarify missing information and verify data completeness.",
+      "Supervise local copy service assets, ensuring exact handling, absolute accuracy, and secure delivery of sensitive case folders.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Operations Representative",
+    company_name: "iQor – Clark, Philippines",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - Feb 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Evaluated and systematically validated consumer profile changes and title documentation under strict internal audit regulations.",
+      "Reviewed active customer accounts, financial registries, and balance items to log and eliminate formatting discrepancies.",
+      "Maintained high metrics for data accuracy while handling high-volume operational targets inside private databases.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Customer Support Specialist (Multi-Account)",
+    company_name: "24-7 Intouch Philippines Inc. – Clark, Philippines",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2023 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Administered concurrent client program tracks, managing shifting service workflows and rigorous turnaround rules independently.",
+      "Liaised between commercial property managers and external utility vendors to align logistical onboarding parameters.",
+      "Audited background records and paperwork configurations for credit and consumer automotive loan applications.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Customer Service Representative",
+    company_name: "Alorica – Ilocos Norte, Philippines",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Answered incoming queue calls, resolving billing inquiries, customer disputes, and tech tracking issues methodically.",
+      "Managed file logging systems to chronicle complex case timelines before initiating structural department escalations.",
     ],
   },
 ] as const;
@@ -198,26 +193,26 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Alexander consistently delivers 100% data accuracy under tight legal and operational deadlines while keeping workflows organized.",
+    name: "Operations Team Lead",
+    designation: "Supervisor",
+    company: "Clark Operations",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "His custom AutoHotkey macros and attention to compliance details significantly reduced formatting errors across our daily audits.",
+    name: "Quality Assurance Analyst",
+    designation: "QA Specialist",
+    company: "Enterprise Support",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Reliable, detail-oriented, and quick to resolve complex multi-account escalations between property managers and vendors.",
+    name: "Program Coordinator",
+    designation: "Account Manager",
+    company: "Client Services",
     image: user3,
   },
 ] as const;
@@ -225,158 +220,82 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Workflow Automation Macros",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Custom AutoHotkey scripts and keyboard hotkeys built to automate repetitive data entry, file logging, and high-volume CRM verification workflows.",
     tags: [
       {
-        name: "react",
+        name: "autohotkey",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "automation",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "productivity",
         color: "pink-text-gradient",
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app",
+    source_code_link: "https://github.com",
+    live_site_link: "https://github.com",
   },
   {
-    name: "Golds Gym",
+    name: "Interactive 3D Portfolio",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Responsive personal portfolio built with React, TypeScript, Tailwind CSS, and Three.js to showcase operations experience and front-end development fundamentals.",
     tags: [
       {
-        name: "react",
+        name: "html5-css3",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app",
+    source_code_link: "https://github.com",
+    live_site_link: "https://github.com",
   },
   {
-    name: "Shoppy",
+    name: "Compliance & Audit Tracker",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Structured front-end layout and validation checklist designed to minimize formatting discrepancies and streamline multi-account documentation reviews.",
     tags: [
       {
-        name: "react",
+        name: "html5",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "css3",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app",
+    source_code_link: "https://github.com",
+    live_site_link: "https://github.com",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com",
-  },
-  {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://x.com/_sanidhyy",
+    link: "https://linkedin.com",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com",
   },
 ] as const;
