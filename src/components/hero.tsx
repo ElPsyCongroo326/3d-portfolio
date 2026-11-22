@@ -42,7 +42,7 @@ export const Hero = () => {
           <div className="w-8.75 h-16 rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
-                y:,
+                y: new Array(0, 24, 0),
               }}
               transition={{
                 duration: 1.5,
